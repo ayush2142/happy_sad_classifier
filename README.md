@@ -32,7 +32,7 @@ The neural network outputs a probability between 0 and 1, representing the likel
 
 To use this model, you can follow these steps:
 
-1. Ensure you have Python 3.7 and TensorFlow 2.11.0 installed.
+1. Create a virtual environment or download all packages mentioned in the `requirements.txt` file. When creating the environment ideally use python 3.7.
 
 2. Clone this repository to your local machine.
 
