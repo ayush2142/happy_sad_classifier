@@ -36,14 +36,14 @@ To use this model, you can follow these steps:
 
 2. Clone this repository to your local machine.
 
-3. Prepare your image data for testing. The input images should have a size of 256x256 pixels and 3 colour channels (RGB).
+3. Prepare your image data for testing. The input images should have a size of 256x256 pixels and 3 colour channels (RGB). (The code does this for you by itself)
 
 4. Run the model on your test data to get predictions.
 
 ```python
 # Example code for loading an image and making predictions
 
- # Import the dependencies:
+# Import the dependencies:
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import cv2
